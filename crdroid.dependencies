@@ -1,6 +1,38 @@
 [
   {
-    "repository": "android_device_xiaomi_sm8350-common",
-    "target_path": "device/xiaomi/sm8350-common"
+    "repository": "crdroidandroid/android_device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "remote": "github",
+    "revision": "haydn-13.0"
+  },
+  {
+    "repository": "Astridxx/proprietary_vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "remote": "github",
+    "revision": "lineage-20"
+  },
+  {
+    "repository": "INCENDIOCODM/proprietary_vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "remote": "github",
+    "revision": "lineage-20"
+  }
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_sm8350",
+    "target_path": "kernel/xiaomi/sm8350",
+    "remote": "github",
+    "revision": "13.0"
+  },
+  {
+    "repository": "Alucard_Storm/vendor_xiaomi_haydn-firmware",
+    "target_path": "vendor/xiaomi/haydn-firmware",
+    "remote": "gitlab",
+    "revision": "thirteen"
+  },
+  {
+    "repository": "Alucard_Storm/haydn-miuicamera",
+    "target_path": "vendor/xiaomi/haydn-miuicamera",
+    "remote": "gitlab",
+    "revision": "thirteen-leica"
   }
 ]
