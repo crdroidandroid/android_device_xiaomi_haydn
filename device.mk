@@ -6,6 +6,9 @@
 
 COMMON_PATH := device/xiaomi/sm8350-common
 
+# NFC
+TARGET_NFC_SUPPORTED_SKUS := haydn haydnpro
+
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
