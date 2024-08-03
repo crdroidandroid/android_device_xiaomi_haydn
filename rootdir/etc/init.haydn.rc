@@ -4,6 +4,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
+    override
+    class early_hal
+    user nfc
+    group nfc drmrpc system
+    disabled
+
 service qti_esepowermanager_service_1_1 /vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
     override
     class hal
@@ -18,19 +25,12 @@ service secureelement-hal_1_2 /vendor/bin/hw/vendor.qti.secure_element@1.2-servi
     group system
     disabled
 
-service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service.nxp
-    override
-    class early_hal
-    user nfc
-    group nfc drmrpc system
-    disabled
-
-on boot && property:ro.boot.product.hardware.sku=haydn
+on property:ro.boot.product.hardware.sku=haydn
+    enable vendor.nfc_hal_service
     enable qti_esepowermanager_service_1_1
     enable secureelement-hal_1_2
-    enable vendor.nfc_hal_service
 
-on boot && property:ro.boot.product.hardware.sku=haydnpro
+on property:ro.boot.product.hardware.sku=haydnpro
+    enable vendor.nfc_hal_service
     enable qti_esepowermanager_service_1_1
     enable secureelement-hal_1_2
-    enable vendor.nfc_hal_service
