@@ -23,6 +23,9 @@ PRODUCT_NAME := lineage_haydn
 PRODUCT_SYSTEM_NAME := haydn_global
 PRODUCT_SYSTEM_DEVICE := haydn
 
+# crDroid
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc=$(call normalize-path-list, "haydn_global-user 14 UKQ1.231207.002 V816.0.2.0.UKKMIXM release-keys") \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
