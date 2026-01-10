@@ -38,3 +38,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
+
+# Inherit MIUI-camera from proprietary files
+-include vendor/xiaomi/miuicamera-haydn/BoardConfig.mk
