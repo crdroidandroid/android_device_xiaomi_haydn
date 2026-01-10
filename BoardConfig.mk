@@ -35,6 +35,7 @@ BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
