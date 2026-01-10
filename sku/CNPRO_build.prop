@@ -3,4 +3,5 @@
 ro.product.odm.model=M2012K11C
 ro.product.odm.name=haydnpro
 bluetooth.device.default_name=Redmi K40 Pro+
+vendor.usb.product_string=Redmi K40 Pro+
 # end sku build properties
