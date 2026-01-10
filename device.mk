@@ -45,6 +45,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# SKU properties
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/sku/,$(TARGET_COPY_OUT_ODM)/etc)
+
 # Vibrator
 $(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.xiaomi)
 $(call soong_config_set,qti_vibrator,use_effect_stream,true)
