@@ -39,3 +39,6 @@ TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
+
+# Inherit MIUI-camera from proprietary files
+-include vendor/xiaomi/miuicamera-haydn/BoardConfig.mk

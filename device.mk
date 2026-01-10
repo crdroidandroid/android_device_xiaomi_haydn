@@ -55,3 +55,6 @@ $(call soong_config_set,qti_vibrator,use_effect_stream,true)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
+
+# Call the proprietary setup for miui-camera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-haydn/device.mk)
