@@ -1,0 +1,23 @@
+ [
+   {
+      "repository": "Never-Alive/device_xiaomi_sm8350-common",
+      "target_path": "device/xiaomi/sm8350-common",
+   },
+   {
+      "repository": "Never-Alive/kernel_xiaomi_sm8350",
+      "target_path": "kernel/xiaomi/sm8350",
+   },
+   {
+      "repository":"Never-Alive/vendor_xiaomi_haydn",
+      "target_path": "vendor/xiaomi/haydn",
+   },
+   {
+      "repository": "Never-Alive/vendor_xiaomi_sm8350-common",
+      "target_path": "vendor/xiaomi/sm8350-common",
+   },      
+   {   
+      "remote": "crdroid-gitlab",
+      "repository": "miui-cam/vendor-xiaomi-miuicamera-haydn",
+      "target_path": "vendor/xiaomi/miuicamera-haydn",
+   }
+]
