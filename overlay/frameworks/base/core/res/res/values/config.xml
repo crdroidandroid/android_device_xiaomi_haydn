@@ -341,7 +341,7 @@
         <item>haydnpro</item>
     </string-array>
 
-    <!-- Name of a font family to use as light font. For theming purpose. -->
+   <!-- Name of a font family to use as light font. For theming purpose. -->
     <string name="config_lightFontFamily" translatable="false">sans-serif-light</string>
 
     <!-- Name of a font family to use as regular font. For theming purpose. -->
@@ -429,9 +429,6 @@
     <bool name="config_dozePulseTilt">false</bool>
     <bool name="config_dozePulseProximity">false</bool>
     <bool name="config_deviceHaveWakeUpProximity">false</bool>
-
-    <!-- Whether doze feature is enabled by default in settings -->
-    <bool name="config_doze_enabled_by_default">false</bool>
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">false</bool>
