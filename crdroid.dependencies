@@ -1,23 +1,46 @@
- [
-   {
-      "repository": "Never-Alive/device_xiaomi_sm8350-common",
-      "target_path": "device/xiaomi/sm8350-common",
-   },
-   {
-      "repository": "Never-Alive/kernel_xiaomi_sm8350",
-      "target_path": "kernel/xiaomi/sm8350",
-   },
-   {
-      "repository":"Never-Alive/vendor_xiaomi_haydn",
-      "target_path": "vendor/xiaomi/haydn",
-   },
-   {
-      "repository": "Never-Alive/vendor_xiaomi_sm8350-common",
-      "target_path": "vendor/xiaomi/sm8350-common",
-   },      
-   {   
-      "remote": "crdroid-gitlab",
-      "repository": "miui-cam/vendor-xiaomi-miuicamera-haydn",
-      "target_path": "vendor/xiaomi/miuicamera-haydn",
-   }
+[
+  {
+    "remote"     : "github",
+    "repository" : "crdroidandroid/device_xiaomi_sm8350-common",
+    "target_path": "device/xiaomi/sm8350-common",
+    "branch"     : "16.0-haydn"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "crdroidandroid/vendor_xiaomi_haydn",
+    "target_path": "vendor/xiaomi/haydn",
+    "branch"     : "16.0"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "crdroidandroid/vendor_xiaomi_sm8350-common",
+    "target_path": "vendor/xiaomi/sm8350-common",
+    "branch"     : "16.0-haydn"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "crdroidandroid/kernel_xiaomi_haydn",
+    "target_path": "kernel/xiaomi/sm8350",
+    "branch"     : "ksun",
+    "recursive"  :  "true"
+  },
+  {
+    "remote"     : "gitlab",
+    "repository" : "Lucifer-Alive/vendor-xiaomi-miuicamera-haydn",
+    "target_path": "vendor/xiaomi/miuicamera-haydn",
+    "branch"     : "16.0"
+  },
+  {
+   "remote"     : "github",
+    "repository" : "Never-Alive/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch"     : "16.0"
+  },
+  {
+   "remote"     : "github",
+    "repository" : "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch"     : "lineage-23.2"
+  },
 ]
+
