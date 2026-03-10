@@ -57,3 +57,6 @@ $(call inherit-product, vendor/xiaomi/haydn/haydn-vendor.mk)
 
 # Call the proprietary setup for miui-camera
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera-haydn/device.mk)
+
+# Call Gamebar
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
