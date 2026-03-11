@@ -12,7 +12,7 @@ fi
 
 # Main vendor tree
 if [ ! -d vendor/xiaomi/haydn ]; then
-   git clone --depth=1 https://github.com/Never-Alive/vendor_xiaomi_haydn -b 16 vendor/xiaomi/haydn
+   git clone --depth=1 https://github.com/Never-Alive/vendor_xiaomi_haydn -b lineage-23.2 vendor/xiaomi/haydn
 fi
 
 # Common vendor tree
@@ -27,12 +27,12 @@ fi
 
 # Mi-Cam
 if [ ! -d vendor/xiaomi/miuicamera-haydn ]; then
-   git clone --depth=1 https://gitlab.com/Lucifer-Alive/vendor-xiaomi-miuicamera-haydn -b 16.0 vendor/xiaomi/miuicamera-haydn
+   git clone https://gitlab.com/Lucifer-Alive/vendor-xiaomi-miuicamera-haydn -b 16.0 vendor/xiaomi/miuicamera-haydn
 fi
 
 # Dolby (Sony)
 if [ ! -d hardware/dolby ]; then
-   git clone --depth=1 https://github.com/Never-Alive/hardware_dolby -b sony-1.5 hardware/dolby
+   git clone https://github.com/Never-Alive/hardware_dolby -b sony-1.4 hardware/dolby
 fi
 
 # Xiaomi hardware tree
