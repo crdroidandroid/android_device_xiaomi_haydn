@@ -32,7 +32,8 @@ fi
 
 # Dolby (Sony)
 if [ ! -d hardware/dolby ]; then
-   git clone https://github.com/Never-Alive/hardware_dolby -b sony-1.4 hardware/dolby
+   git clone https://github.com/Never-Alive/hardware_dolby -b sony-1.5 hardware/dolby
+   git clone https://github.com/swiitch-OFF-Lab/packages_apps_DolbyUI -b 16.0 packages/apps/DolbyUI
 fi
 
 # Xiaomi hardware tree
