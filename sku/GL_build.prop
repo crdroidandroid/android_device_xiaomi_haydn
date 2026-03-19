@@ -3,5 +3,4 @@
 ro.product.odm.model=M2012K11G
 ro.product.odm.name=haydn
 bluetooth.device.default_name=Mi 11i
-vendor.usb.product_string=Mi 11i
 # end sku build properties
