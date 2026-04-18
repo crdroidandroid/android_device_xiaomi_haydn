@@ -28,6 +28,7 @@ PRODUCT_COPY_FILES += \
 SPAMMY_LOG_TAGS := \
     AiAiEcho \
     MiStcImpl \
+    KernelSU \
     SDM \
     SDM-histogram \
     SRE \
