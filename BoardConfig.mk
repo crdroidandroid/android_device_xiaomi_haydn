@@ -50,3 +50,6 @@ include vendor/xiaomi/haydn/BoardConfigVendor.mk
 
 # Inherit Firmware (V816.0.19.0.UKKMIXM)
 -include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
+
+# Inherit MIUI-camera from proprietary files
+-include vendor/xiaomi/miuicamera-haydn/BoardConfig.mk
