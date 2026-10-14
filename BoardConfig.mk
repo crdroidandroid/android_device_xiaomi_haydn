@@ -47,3 +47,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Include proprietary files
 include vendor/xiaomi/haydn/BoardConfigVendor.mk
+
+# Inherit Firmware (V816.0.19.0.UKKMIXM)
+-include vendor/xiaomi/haydn-firmware/BoardConfigVendor.mk
